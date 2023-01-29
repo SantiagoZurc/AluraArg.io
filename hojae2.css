@@ -1,0 +1,71 @@
+li {
+		margin-bottom: 15px;
+}
+
+h1#Nombre {
+		font-size: 25px;
+}
+
+h1#perfil {
+		display:inline-block;
+		position:relative;
+		font-size: 25px;
+}
+
+h1#perfil::after,h1#perfil::before {
+		content:'';
+		position: absolute;
+		width:120px;
+		height:3px;
+		background-color:#2F4F4F;
+		top:0.6em;
+		transition:all 0.2s ease-in;
+}
+
+h1#perfil:hover::before, h1#perfil:hover::after {
+		transform:scale(1);
+}
+
+h1#perfil::before {
+		left:-140px;
+}
+
+h1#perfil::after {
+		right:-140px;
+}
+
+h1#experiencia {
+		font-size: 30px;
+}
+
+h1#habilidades {
+		font-size: 30px;
+}
+
+h1#educacion {
+		display:inline-block;
+		position:relative;
+		font-size: 25px;
+		}
+
+h1#educacion::after,h1#educacion::before {
+		content:'';
+		position: absolute;
+		width:120px;
+		height:3px;
+		background-color:#2F4F4F;
+		top:0.6em;
+		transition:all 0.2s ease-in;
+}
+
+h1#educacion:hover::before, h1#educacion:hover::after {
+		transform:scale(1);
+}
+
+h1#educacion::before {
+		left:-140px;
+}
+
+h1#educacion::after {
+		right:-140px;
+}

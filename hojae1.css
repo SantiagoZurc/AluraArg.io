@@ -1,0 +1,81 @@
+body {
+  
+  	background-image: url(https://i.pinimg.com/originals/92/5f/ac/925faca63e1bd5a75761de1401c8cbf9.png);
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+
+div#container {
+		box-sizing:1px;
+		-webkit-box-shadow: -1px 2px 28px 1px rgba(255,245,245,0.75);
+		-webkit-box-shadow: -1px 2px 28px 1px rgba(255,245,245,0.75);
+		-moz-box-shadow: -1px 2px 28px 1px rgba(255,245,245,0.75);
+		border-radius: 10px;
+		margin: auto;
+		margin-top:50px;
+		width: 800px;
+		height: 1000px;
+		background-color:#2F4F4F;
+		text-align: center;
+}
+
+div#información {
+		float: left;
+		margin: 15px;
+		margin-top: 50px;
+		border-radius: 5px;
+		width: 230px;
+		height: 900px;
+		background-color: #DEB887;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		text-align: center;
+		align-items: center;
+}
+
+div#perfil  {
+		float: right;
+		margin: 3px;
+		margin-top: 70px;
+		border-radius: 5px;
+		width: 520px;
+		height: 225px;
+		background-color: #A0D6B4;
+		text-align: center;
+}
+
+div#experiencia {  
+		float: right;
+		margin: 15px;
+		margin-top: 80px;
+		border-radius: 5px;
+		width: 250px;
+		height: 320px;
+		background-color: #BDB76B;
+		text-align: center;
+}
+
+div#educacion {
+		float: right;
+		margin: 3px;
+		margin-top: 70px;
+		border-radius: 5px;
+		width: 520px;
+		height: 150px;
+		background-color: #A0D6B4;
+		text-align: center;
+}
+
+div#habilidades {  
+		float: left;
+		margin: 10px;
+		margin-top: -335px;
+		border-radius: 5px;
+		width: 250px;
+		height: 320px;
+		background-color: #8F9779;
+		text-align: center;
+}
