@@ -5,7 +5,7 @@ const contentDiv = document.getElementById('content');
 
 // Función para mostrar un alert
 function showAlert() {
-    alert('¡Esto es un alert!');
+    alert('¡Bienvenido a mi página!');
 }
 
 // Función para mostrar un prompt y mostrar el resultado
