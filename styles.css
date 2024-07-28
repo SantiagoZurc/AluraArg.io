@@ -1,0 +1,57 @@
+/* Variables CSS */
+:root {
+    --main-bg-color: #f0f0f0;
+    --header-footer-bg-color: #333;
+    --text-color: #fff;
+    --button-bg-color: #007bff;
+    --button-text-color: #fff;
+}
+
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+/* Header */
+header {
+    background-color: var(--header-footer-bg-color);
+    color: var(--text-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Botones */
+button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Footer */
+footer {
+    background-color: var(--header-footer-bg-color);
+    color: var(--text-color);
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
