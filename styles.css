@@ -11,7 +11,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: https://static.vecteezy.com/system/resources/previews/002/597/340/original/dark-black-hexagon-pattern-on-red-orange-neon-abstract-background-in-technology-style-modern-futuristic-geometric-shape-web-banner-design-you-can-use-for-cover-template-poster-illustration-vector.jpg;
+    background-color: var(--main-bg-color);
 }
 
 /* Header */
